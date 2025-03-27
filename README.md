@@ -49,31 +49,29 @@ Ensure you have **Node.js** and **npm** installed. You can verify this by runnin
 ```bash
 node -v
 npm -v
-
+```
+### Install
 
 To install required packages, use:
-
+```bash
 npm install
+```
 
-Build
+### Build
 To build the project, use the following command:
 
+```bash
 npm run build
+```
 
-
-Building
-To build the project for production, use the following command:
-
-npm run build
-This will bundle the project into a static output folder, ready for deployment.
-
-Development
+### Development
 To start the development server, use the following command:
-
+```bash
 npm run dev
+```
 This will start a local development server, typically available at http://localhost. Any changes made to the project will automatically trigger a live reload.
 
-Dependencies
+### Dependencies
 This project uses the following dependencies:
 
 Core Libraries
@@ -92,18 +90,18 @@ React Three Fiber Libraries
 
 r3f-perf: A performance optimization library for React Three Fiber, helping you monitor and optimize your 3D scenes.
 
-Development Tools
+### Development Tools
 Vite: A fast and modern build tool for web projects, used here to bundle the app and provide live development features.
 
 Vite Plugin Restart: Automatically restarts Vite when there are changes to specific files, providing an improved development experience.
 
 @vitejs/plugin-react: Vite plugin to support React features.
 
-State Management
+### State Management
 Zustand: A small, fast state management library that integrates seamlessly with React for managing app state.
 
-Contributing
+### Contributing
 Contributions are welcome! If you'd like to contribute to this project, feel free to open an issue or submit a pull request. Please make sure your changes are well-documented and that tests are included if applicable.
 
-License
+### License
 This project is private and is currently intended for personal use and learning. However, feel free to explore, fork, and adapt it for your own purposes
